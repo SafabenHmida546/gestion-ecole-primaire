@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
+:root{font-family:'DM Sans',sans-serif;color:#17243b;background:#f5f7fb}*{box-sizing:border-box}body{margin:0;background:#f5f7fb;font-family:'DM Sans',sans-serif;font-size:14px}.app-shell{min-height:100vh}.sidebar{position:fixed;inset:0 auto 0 0;width:250px;background:#14233e;color:#c5d0e2;padding:22px 15px;display:flex;flex-direction:column;z-index:10}.side-brand{display:flex;align-items:center;gap:11px;padding:2px 8px 28px;color:white}.side-brand b{display:block;font-size:15px}.side-brand small{display:block;color:#93a4bd;font-size:11px;margin-top:3px}.brand-icon{width:54px;height:54px;border-radius:16px;background:#e9f1ff;color:#2865d7;display:grid;place-items:center;margin:0 auto 14px}.brand-icon.small{width:38px;height:38px;border-radius:12px;margin:0;color:#2865d7}.nav-caption{font-size:10px;letter-spacing:1.4px;color:#71839e;padding:5px 12px 12px}.side-link{display:flex;align-items:center;gap:13px;padding:11px 13px;margin:2px 0;border-radius:9px;color:#b7c4d8;text-decoration:none;font-weight:500;transition:.15s}.side-link:hover,.side-link.active{background:#263b60;color:#fff}.side-link.active{box-shadow:inset 3px 0 #71a2ff}.sidebar-bottom{margin-top:auto}.user-mini{display:flex;align-items:center;gap:10px;padding:14px 7px;border-top:1px solid #30405a}.avatar{width:34px;height:34px;border-radius:50%;background:#dbe8ff;color:#2458a9;display:grid;place-items:center;font-weight:700}.user-mini b,.user-mini small{display:block}.user-mini b{color:#fff;font-size:12px}.user-mini small{color:#93a4bd;font-size:11px;margin-top:3px}.logout{width:100%;background:transparent;border:0;color:#b7c4d8;text-align:left;padding:10px;display:flex;gap:10px;align-items:center}.main-area{margin-left:250px;min-height:100vh}.topbar{height:72px;background:#fff;border-bottom:1px solid #e9edf4;display:flex;align-items:center;padding:0 34px;gap:13px}.topbar b,.topbar small{display:block}.topbar b{font-size:14px}.topbar small{color:#8793a5;font-size:11px;margin-top:3px}.top-right{margin-left:auto;color:#758196;font-size:12px}.status-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#24bd7a;margin-right:5px}.page-content{padding:30px 34px;max-width:1500px;margin:auto}.page-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:25px}.eyebrow{font-size:10px;letter-spacing:1.5px;font-weight:700;color:#6f8ab5}.page-heading h2{font-size:25px;font-weight:800;margin:5px 0;color:#17243b}.page-heading p{color:#8793a5;margin:0}.year-pill{background:#eaf1ff;color:#3264b5;padding:8px 13px;border-radius:20px;font-weight:600}.stat-card,.panel{background:#fff;border:1px solid #edf0f5;border-radius:13px;padding:20px;box-shadow:0 3px 12px rgba(27,48,82,.025)}.stat-top{display:flex;justify-content:space-between;align-items:center;color:#748198;font-size:12px;font-weight:600}.stat-icon{width:39px;height:39px;border-radius:11px;display:grid;place-items:center;color:#355e9e}.stat-card h3{font-size:27px;font-weight:800;margin:12px 0 3px}.stat-card small{color:#9aa4b3;font-size:11px}.panel h5{font-size:15px;font-weight:700;margin:0 0 15px}.panel-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.panel-head h5{margin:0}.panel-head p{margin:5px 0 0;color:#8a96a8;font-size:12px}.count{background:#edf3ff;color:#3768b6;padding:3px 8px;border-radius:12px;font-size:11px;margin-left:5px}.quick-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.quick-item{border:1px solid #edf0f5;border-radius:10px;padding:16px 10px;display:flex;flex-direction:column;align-items:center;gap:9px;color:#48638c;text-decoration:none;font-size:12px;font-weight:600}.quick-item:hover{background:#f4f7ff;border-color:#d7e3fb}.notice{display:flex;align-items:flex-start;gap:12px;padding:15px 0;border-bottom:1px solid #f0f2f6}.notice:last-child{border:0}.notice b,.notice small{display:block}.notice b{font-size:12px}.notice small{color:#8b97a8;font-size:11px;margin-top:4px}.notice-dot{width:9px;height:9px;border-radius:50%;margin-top:4px}.blue{background:#5487e8}.green{background:#31bd86}.orange{background:#f0a64d}.btn-primary{background:#3269ce;border-color:#3269ce}.btn-primary:hover{background:#2558b4}.form-control,.form-select{font-size:13px;padding:9px 11px;border-color:#e2e7ef}.form-label{font-size:12px;font-weight:600;color:#56647a}.table{font-size:12px;margin:0}.table th{color:#7d899c;font-size:10px;text-transform:uppercase;letter-spacing:.5px;background:#fafbfd;white-space:nowrap}.table td{color:#47556c}.table>:not(caption)>*>*{padding:12px 10px;border-bottom-color:#edf0f5}.empty-state{text-align:center;padding:35px;color:#97a2b2}.message-row{padding:13px 0;border-bottom:1px solid #edf0f5}.message-row b,.message-row small{display:block}.message-row small{color:#8c98a9;font-size:11px;margin:4px 0}.message-row p{margin:5px 0 0;color:#536178}.login-bg{min-height:100vh;display:grid;place-items:center;background:linear-gradient(135deg,#eaf1ff,#f7f9fd)}.login-card{width:min(410px,calc(100% - 30px));background:#fff;border-radius:18px;padding:36px;box-shadow:0 18px 60px rgba(39,65,110,.12)}.login-card h3{text-align:center;font-weight:800;font-size:22px}.login-card>p{text-align:center;font-size:13px;margin-bottom:25px}.loading{padding:40px;text-align:center}.hamburger,.mobile-close{display:none;border:0;background:transparent;color:#53647d}
+@media(max-width:900px){.sidebar{transform:translateX(-100%);transition:.2s}.sidebar.show{transform:translateX(0)}.main-area{margin-left:0}.hamburger{display:block}.mobile-close{display:block;margin-left:auto;color:#fff}.topbar{padding:0 18px}.page-content{padding:22px 17px}.quick-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.top-right{display:none}.page-heading{align-items:flex-start;gap:10px}.page-heading h2{font-size:21px}.year-pill{font-size:11px}.stat-card{padding:15px}.login-card{padding:27px}}
+
+/* SaaS School Registration */
+.register-card {
+  width: min(650px, calc(100% - 30px));
+  background: #fff;
+  border-radius: 18px;
+  padding: 32px;
+  margin: 25px auto;
+  box-shadow: 0 18px 60px rgba(39,65,110,.12);
+}
+
+.register-card h3 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.register-card > p {
+  text-align: center;
+  color: #8793a5;
+  font-size: 13px;
+  margin-bottom: 24px;
+}
+
+.register-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 15px;
+}
+
+.register-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+@media(max-width:520px) {
+  .register-card {
+    padding: 22px;
+  }
+
+  .register-grid {
+    grid-template-columns: 1fr;
+  }
+}
